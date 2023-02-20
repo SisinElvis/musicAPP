@@ -1,28 +1,28 @@
-body {
-    margin: 0;
-    border: 1px solid black;
-    height: 90vh;
-    padding-top: 50px;
-}
-.header .horizontal-bar{
-    border: 1px solid black;
-    height: 50px;
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
 }
 .vertical-menu{
     width: 15vw;
     border: 1px solid;
     height: 500px;
 }
-.landing-page{
-    width: 60vw;
-    border: 1px solid;
-    height: 500px;
+
+header {
+    width: 85%;
+    height: 95%;
+    border: 1px solid #fff;
+
 }
-.additional-slides{
-    width: 25vw;
-    border: 1px solid;
-    height: 500px;
+
+header .menu_side, .song_side {
+    position: relative;
+    width: 25%;
+    height: 90%;
+    border: 1px solid #fff;
 }
-.section1{
-    display: flex;
+
+header .song_side{
+    width: 75%;
 }
